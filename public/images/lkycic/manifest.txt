@@ -1,0 +1,14 @@
+downloaded	public/images/lkycic/smallcross-white.gif	https://lkycic.sutd.edu.sg/wp-content/plugins/wp-photo-album-plus/img/smallcross-white.gif
+downloaded	public/images/lkycic/lkycic-logo-2020-jpg-mobile-fc.jpg	https://lkycic.sutd.edu.sg/wp-content/uploads/2020/06/lkycic-logo-2020-jpg-mobile-fc.jpg
+downloaded	public/images/lkycic/lkycic-logo-web-2022-fc-full-1x.png	https://lkycic.sutd.edu.sg/wp-content/uploads/2023/03/lkycic-logo-web-2022-fc-full-1x.png
+downloaded	public/images/lkycic/lkycic-logo-web-2022-fc-full-2x.png	https://lkycic.sutd.edu.sg/wp-content/uploads/2023/03/lkycic-logo-web-2022-fc-full-2x.png
+downloaded	public/images/lkycic/lkycic-logo-web-2022-fc-mobile-1x.png	https://lkycic.sutd.edu.sg/wp-content/uploads/2023/03/lkycic-logo-web-2022-fc-mobile-1x.png
+downloaded	public/images/lkycic/lkycic-logo-web-2022-fc-mobile-2x.png	https://lkycic.sutd.edu.sg/wp-content/uploads/2023/03/lkycic-logo-web-2022-fc-mobile-2x.png
+downloaded	public/images/lkycic/MUB_Cover_15_April_2025.png	https://lkycic.sutd.edu.sg/wp-content/uploads/2023/12/MUB_Cover_15_April_2025.png
+downloaded	public/images/lkycic/wcs-154x230.png	https://lkycic.sutd.edu.sg/wp-content/uploads/2023/12/wcs-154x230.png
+downloaded	public/images/lkycic/wcs-200x298.png	https://lkycic.sutd.edu.sg/wp-content/uploads/2023/12/wcs-200x298.png
+downloaded	public/images/lkycic/wcs-201x300.png	https://lkycic.sutd.edu.sg/wp-content/uploads/2023/12/wcs-201x300.png
+downloaded	public/images/lkycic/wcs-400x596.png	https://lkycic.sutd.edu.sg/wp-content/uploads/2023/12/wcs-400x596.png
+downloaded	public/images/lkycic/wcs-600x894.png	https://lkycic.sutd.edu.sg/wp-content/uploads/2023/12/wcs-600x894.png
+downloaded	public/images/lkycic/wcs.png	https://lkycic.sutd.edu.sg/wp-content/uploads/2023/12/wcs.png
+downloaded	public/images/lkycic/1572.jpg	https://lkycic.sutd.edu.sg/wp-content/uploads/wppa/1572.jpg
