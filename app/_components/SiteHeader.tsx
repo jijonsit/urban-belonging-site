@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function SiteHeader() {
-  const textWithBreaks = "\n\n\n";
+  const textWithBreaks = "^\n\n";
 
   return (
     <header className="border-b border-zinc-200 bg-white">
@@ -15,7 +15,7 @@ export default function SiteHeader() {
             height={30}
             priority
           />
-          <span className="text-sm font-semibold tracking-widest text-zinc-900 sm:text-xxl">
+          <span className="text-xl font-semibold tracking-widest text-zinc-900 sm:text-xxl">
             {textWithBreaks}
           </span>
           {/* <span className="text-lg font-semibold tracking-tight text-zinc-900 sm:text-xl">
