@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function SiteHeader() {
+  const textWithBreaks = "\n\n\n";
+
   return (
     <header className="border-b border-zinc-200 bg-white">
       <div className="mx-auto flex w-full max-w-5xl items-center justify-between px-6 py-4">
@@ -13,8 +15,10 @@ export default function SiteHeader() {
             height={30}
             priority
           />
-        <span className="text-xl font-semibold tracking-wide text-zinc-900 sm:text-lg"><br /><br /><br /></span>
-{/*           <span className="text-lg font-semibold tracking-tight text-zinc-900 sm:text-xl">
+          <span className="text-sm font-semibold tracking-widest text-zinc-900 sm:text-xxl">
+            {textWithBreaks}
+          </span>
+          {/* <span className="text-lg font-semibold tracking-tight text-zinc-900 sm:text-xl">
             Mapping Urban Belonging
           </span> */}
 
