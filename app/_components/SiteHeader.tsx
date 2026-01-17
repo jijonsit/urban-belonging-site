@@ -14,7 +14,8 @@ export default function SiteHeader() {
             width={200}
             height={30}
             priority
-            className="h-16 w-full max-w-xs sm:h-20 md:h-24 object-contain"
+            sizes="(max-width: 640px) 150px, (max-width: 768px) 200px, 250px"
+            className="h-auto w-24 sm:w-32 md:w-40 object-contain"
           />
           <span className="text-xl font-semibold tracking-widest text-zinc-900 sm:text-2xl">
             {textWithBreaks}
