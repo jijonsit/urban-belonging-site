@@ -8,15 +8,16 @@ export default function SiteHeader() {
     <header className="border-b border-zinc-200 bg-white">
       <div className="mx-auto flex w-full max-w-5xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center gap-3">
-          <Image
-            src="/images/lkycic/topo-phi-logo.jpg"
-            alt="Topo-phi"
-            width={200}
-            height={30}
-            priority
-            sizes="(max-width: 640px) 150px, (max-width: 768px) 200px, 250px"
-            className="h-auto w-24 sm:w-32 md:w-40 object-contain"
-          />
+          <div className="relative h-20 w-48 sm:h-24 sm:w-56 md:h-28 md:w-64">
+            <Image
+              src="/images/lkycic/topo-phi-logo.jpg"
+              alt="Topo-phi"
+              fill
+              priority
+              sizes="(max-width: 640px) 192px, (max-width: 768px) 224px, 256px"
+              className="object-contain"
+            />
+          </div>
           <span className="text-xl font-semibold tracking-widest text-zinc-900 sm:text-2xl">
             {textWithBreaks}
           </span>
