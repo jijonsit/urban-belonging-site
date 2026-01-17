@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function SiteHeader() {
-  const textWithBreaks = "^\n\n";
+  const textWithBreaks = "\n\n";
 
   return (
     <header className="border-b border-zinc-200 bg-white">
@@ -14,11 +14,12 @@ export default function SiteHeader() {
             width={200}
             height={30}
             priority
+            className="h-8 w-auto sm:h-10 md:h-12"
           />
           <span className="text-xl font-semibold tracking-widest text-zinc-900 sm:text-xxl">
             {textWithBreaks}
           </span>
-          {/* <span className="text-lg font-semibold tracking-tight text-zinc-900 sm:text-xl">
+          {/* <span className="text-sm font-semibold tracking-tight text-zinc-900 sm:text-xl">
             Mapping Urban Belonging
           </span> */}
 
