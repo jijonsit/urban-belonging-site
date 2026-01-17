@@ -12,8 +12,11 @@ export default function SiteHeader() {
             <Image
               src="/images/lkycic/topo-phi-logo.jpg"
               alt="Topo-phi"
+            //width={200}
+            //height={30}
               fill
               priority
+              //className="h-12 w-auto sm:h-16 md:h-20 object-contain"
               sizes="(max-width: 640px) 192px, (max-width: 768px) 224px, 256px"
               className="object-contain"
             />
@@ -27,9 +30,9 @@ export default function SiteHeader() {
 
         </Link>
         <nav className="flex items-center gap-4 text-sm text-zinc-700">
-          <Link className="hover:text-zinc-900" href="/">
+          {/* <Link className="hover:text-zinc-900" href="/">
             Home
-          </Link>
+          </Link> */}
           <Link className="hover:text-zinc-900" href="/research">
             Research
           </Link>
