@@ -14,7 +14,7 @@ export default function SiteHeader() {
             width={200}
             height={30}
             priority
-            className="h-12 w-auto sm:h-16 md:h-20"
+            className="h-12 w-auto sm:h-16 md:h-20 object-contain"
           />
           <span className="text-xl font-semibold tracking-widest text-zinc-900 sm:text-2xl">
             {textWithBreaks}
