@@ -14,7 +14,12 @@ export default function SiteHeader() {
             width={200}
             height={30}
             priority
-            className="h-8 w-auto sm:h-10 md:h-12"
+            // className="h-8 w-auto sm:h-10 md:h-12"
+            className="
+              h-15        /* mobile: big removed: w-auto */
+              sm:h-20     /* tablet and up: bigger */
+              md:h-30     /* desktop: biggest */
+            "
           />
           <span className="text-xl font-semibold tracking-widest text-zinc-900 sm:text-xxl">
             {textWithBreaks}
