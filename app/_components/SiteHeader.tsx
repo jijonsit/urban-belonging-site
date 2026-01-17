@@ -13,7 +13,7 @@ export default function SiteHeader() {
             height={30}
             priority
           />
-          <span className="text-sm font-semibold tracking-wide text-zinc-900 sm:text-xl">Mapping Urban Belonging</span>
+{/* <span className="text-sm font-semibold tracking-wide text-zinc-900 sm:text-xl">Mapping Urban Belonging</span> */}
 {/*           <span className="text-lg font-semibold tracking-tight text-zinc-900 sm:text-xl">
             Mapping Urban Belonging
           </span> */}
