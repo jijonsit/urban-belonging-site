@@ -13,9 +13,11 @@ export default function SiteHeader() {
             height={30}
             priority
           />
-          <span className="text-lg font-semibold tracking-tight text-zinc-900 sm:text-xl">
+          <span className="text-sm font-semibold tracking-wide text-zinc-900 sm:text-xl">Mapping Urban Belonging</span>
+{/*           <span className="text-lg font-semibold tracking-tight text-zinc-900 sm:text-xl">
             Mapping Urban Belonging
-          </span>
+          </span> */}
+
         </Link>
         <nav className="flex items-center gap-4 text-sm text-zinc-700">
           <Link className="hover:text-zinc-900" href="/">
@@ -25,7 +27,7 @@ export default function SiteHeader() {
             Research
           </Link>
           <Link className="hover:text-zinc-900" href="/team">
-            People
+            Team
           </Link>
           <Link className="hover:text-zinc-900" href="/publications">
             Publications
