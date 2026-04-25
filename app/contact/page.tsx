@@ -17,7 +17,10 @@ export default function ContactPage() {
 
       <section className="mt-8 max-w-2xl space-y-3 text-base leading-7 text-zinc-800">
         <p>
-          For more information on the research project, please email{" "}
+          I am happy to connect! 
+        </p>
+        <p>
+          Get in touch at{" "}
           <a className="font-medium text-blue-700 hover:underline" href="mailto:mappingurbanbelonging@gmail.com">
             mappingurbanbelonging@gmail.com
           </a>

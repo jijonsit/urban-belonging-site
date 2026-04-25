@@ -1,72 +1,66 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white text-zinc-900">
-      <main className="mx-auto w-full max-w-5xl px-6 py-10">
+    <main className="mx-auto w-full max-w-5xl px-6 py-10">
+      <nav className="text-sm text-zinc-600">
+        <Link className="hover:text-zinc-900" href="/">
+          Home
+        </Link>
+        <span className="mx-2">/</span>
+        <span className="text-zinc-900">About</span>
+      </nav>
+      {/* <nav className="text-sm text-zinc-600">
+        {/* <span className="text-zinc-900">Home</span> */}
+      {/* </nav> */}
 
-        <header className="mt-4">
-          <div className="overflow-hidden rounded-md border border-zinc-200 bg-zinc-50">
+      <header className="mt-4">
+        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">Backstory</h1>
+      </header>
+
+      <section className="mt-8">
+        {/* <h2 className="text-lg font-semibold tracking-tight">Backstory</h2> */}
+        
+        <div className="mt-4 prose prose-zinc max-w-none">
+          <h3 className="text-base font-semibold text-zinc-800">How did Topo-phi come about?</h3>
+          <p className="mt-2 text-base text-zinc-700 leading-relaxed">
+            Topo-phi came about from a simple desire to continue the research and interest in a project that I started <em>Mapping Urban Belonging in Places of Flux in Singapore (MUB)</em> in 2023 beyond its two years of funding from Tote Board. Together with a small team of young researchers, we gathered many interesting and insightful findings about how urban change is perceived and experienced in the city, and within that context, how people form their belonging neighborhoods that are experiencing urban redevelopment in Singapore.
+          </p>
+          <p className="mt-3 text-base text-zinc-700 leading-relaxed">
+            The audience who heard the findings, and everyone who was on the team, encouraged me to not stop here because this research is much needed. I knew too that there was much more life in the project and I was just getting started.
+          </p>
+          <p className="mt-3 text-base text-zinc-700 leading-relaxed">
+            Topo-phi was set up on 1 January 2026 to do that and more. Topo-phi also marks a new season of life as a researcher and educator outside academia. Over the next few months as I work to spruce up the website, I will post more about the research findings. I am mindful to go with the flow and happy to connect if the material presented on this website excites and resonates with you.
+          </p>
+          
+          <h3 className="mt-6 text-base font-semibold text-zinc-800">What does Topo-phi mean?</h3>
+          <p className="mt-2 text-base text-zinc-700 leading-relaxed">
+            Topo-phi originates from the word "topophilia," a concept I learned as a student of Geography in college when we were introduced to the prolific American geographer, Yi-Fu Tuan, who defined it as "the affective bond between people and place or setting." Topo-phi has a cute ring to it without excessive erudition. A practical hyphen differentiates it from an American outdoor adventure organization.
+          </p>
+        </div>
+      </section>
+
+      <section className="mt-8">
+        <div className="flex items-start gap-6">
+          <div className="flex-shrink-0">
             <img
-              src="/images/lkycic/MUB_Cover_15_April_2025.png"
-              alt="Mapping Urban Belonging in Places of Flux: Singapore (Cover)"
-              className="h-auto w-full"
+              src="/Profile Picture _felicity HH Chan WCS24.jpeg"
+              alt="Dr Felicity Hwee-Hwa Chan"
+              className="w-32 h-32 rounded-full object-cover"
             />
           </div>
-          <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-            Mapping Urban Belonging in Places of Flux: Singapore
-          </h1>
-          <div className="mt-2 text-sm font-medium text-zinc-600">
-            
+          <div className="flex-1">
+            <h2 className="text-lg font-semibold tracking-tight">Founder</h2>
+            <p className="mt-2 text-base text-zinc-800">Dr Felicity Hwee-Hwa Chan</p>
+            <div className="mt-4 prose prose-zinc max-w-none">
+              <p className="text-base text-zinc-700 leading-relaxed">
+                Felicity is an urban researcher, educator, and planner whose work focuses on demographic diversification, inter-group relations, belonging, and public space design. She combines ethnography, interviews, surveys, and mapping to generate socio-spatial insights that can inform inclusive public policies, urban planning and design. She fell in love with the idea of urban planning in junior college and decided to try out physical planning at the Urban Redevelopment Authority of Singapore as her first job after college. She has worked as a planner and an academic in public and non-profit sectors. She is the author of Tensions in Diversity: Spaces for Collective Life in Los Angeles published by the University of Toronto Press.
+              </p>
+            </div>
           </div>
+        </div>
+      </section>
 
-          
-        </header>
-
-        <section className="mt-8 space-y-5 text-base leading-7 text-zinc-800">
-          <p>
-            Urban change in the next two decades in Singapore will be socio-spatial and multi-sourced as urban
-            redevelopment will grow in scope and extent as the city’s built environment ages. Urban redevelopment
-            is formidable and can exact emotional and social costs on individuals and groups as places, routines,
-            and belongings become dislocated and disrupted. This presents a quandary of how urban change can be
-            planned, designed, and managed in ways that enable belonging in the city, which is more often associated
-            with stability than flux.
-          </p>
-          <p>
-            The project sets out to gain a better grasp of how urban residents perceive, conceive, and experience
-            change in their neighborhoods, and in this context how they form their belongings in the city under
-            conditions of change arising from redevelopment of their everyday urban environment. A comparative
-            study of different neighborhoods (both private and public housing areas) undergoing different scales
-            and stages of urban change aims to harvest insights about the socio-spatial attributes critical to the
-            formation of belonging that can inform urban planning and policy of urban redevelopment in Singapore.
-          </p>
-          <p>
-            The data will be collected using digital cognitive mapping interviewing, a method valuable for accessing
-            spatial consciousness, with urban residents from different demographic groups in the selected neighborhoods.
-          </p>
-          <p>
-            For more information on the research project, please email{" "}
-            <a className="font-medium text-blue-700 hover:underline" href="mailto:mappingurbanbelonging@gmail.com">
-              mappingurbanbelonging@gmail.com
-            </a>
-          </p>
-        </section>
-
-        
-        <section className="mt-10">
-          <h2 className="text-lg font-semibold tracking-tight">Project Updates</h2>
-          <p className="mt-3 text-sm leading-6 text-zinc-700">
-            Check out the project presentation by Dr Felicity Chan at the Science of Cities Symposium of the World Cities
-            Summit 2024 in Singapore:{" "}
-            <a
-              className="font-medium text-blue-700 hover:underline"
-              href="https://youtu.be/slKZ4aLrEfw?si=Bmpa2hvkpFDzBvnm&t=3518"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://youtu.be/slKZ4aLrEfw?si=Bmpa2hvkpFDzBvnm&t=3518
-            </a>
-          </p>
-        </section>
-      </main>
-    </div>
+    </main>
   );
 }

@@ -33,11 +33,11 @@ export default function SiteHeader() {
           {/* <Link className="hover:text-zinc-900" href="/">
             Home
           </Link> */}
+          <Link className="hover:text-zinc-900" href="/">
+            About
+          </Link>
           <Link className="hover:text-zinc-900" href="/research">
             Research
-          </Link>
-          <Link className="hover:text-zinc-900" href="/team">
-            Team
           </Link>
           <Link className="hover:text-zinc-900" href="/publications">
             Publications

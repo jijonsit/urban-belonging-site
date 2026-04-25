@@ -13,6 +13,20 @@ export default function ResearchPage() {
 
       <header className="mt-4">
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">Research</h1>
+        
+        <div className="mt-6 overflow-hidden rounded-md border border-zinc-200 bg-zinc-50">
+          <img
+            src="/images/lkycic/MUB_Cover_15_April_2025.png"
+            alt="Mapping Urban Belonging in Places of Flux: Singapore (Cover)"
+            className="h-auto w-full"
+          />
+        </div>
+        <h2 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
+          Mapping Urban Belonging in Places of Flux: Singapore
+        </h2>
+        <div className="mt-2 text-sm font-medium text-zinc-600">
+          
+        </div>
       
       </header>
 
@@ -36,25 +50,17 @@ export default function ResearchPage() {
       </section>
 
       <section className="mt-10">
-        <h2 className="text-lg font-semibold tracking-tight">Project Updates</h2>
-        <div className="mt-4 overflow-hidden rounded-md border border-zinc-200 bg-zinc-50">
-          <img
-            src="/images/lkycic/wcs.png"
-            alt="World Cities Summit 2024 - Science of Cities Symposium"
-            className="h-auto w-full"
-          />
-        </div>
+        <h2 className="text-lg font-semibold tracking-tight">LinkedIn Post</h2>
         <p className="mt-3 text-sm leading-6 text-zinc-700">
-          Project presentation by Dr Felicity Chan at the Science of Cities Symposium of the World Cities Summit 2024:
-          {" "}
           <a
             className="font-medium text-blue-700 hover:underline"
-            href="https://youtu.be/slKZ4aLrEfw?si=Bmpa2hvkpFDzBvnm&t=3518"
+            href="https://www.linkedin.com/posts/world-cities-summit_world-cities-summit-2024-science-of-cities-activity-7298181419862827008-bWbx?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAA3zv5gBL0lwswBoaHnH-wRNWYxHLi4zS2s"
             target="_blank"
             rel="noreferrer"
           >
-            https://youtu.be/slKZ4aLrEfw?si=Bmpa2hvkpFDzBvnm&t=3518
+            Project presentation
           </a>
+          {" "}by Dr Felicity Chan at the Science of Cities Symposium of the World Cities Summit 2024.
         </p>
       </section>
     </main>
