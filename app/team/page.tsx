@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function AboutPage() {
   return (
@@ -32,7 +33,7 @@ export default function AboutPage() {
           
           <h3 className="mt-6 text-base font-semibold text-zinc-800">What does Topo-phi mean?</h3>
           <p className="mt-2 text-base text-zinc-700 leading-relaxed">
-            Topo-phi originates from the word "topophilia," a concept I learned as a student of Geography in college when we were introduced to the prolific American geographer, Yi-Fu Tuan, who defined it as "the affective bond between people and place or setting." Topo-phi has a cute ring to it without excessive erudition. A practical hyphen differentiates it from an American outdoor adventure organization.
+            Topo-phi originates from the word &quot;topophilia,&quot; a concept I learned as a student of Geography in college when we were introduced to the prolific American geographer, Yi-Fu Tuan, who defined it as &quot;the affective bond between people and place or setting.&quot; Topo-phi has a cute ring to it without excessive erudition. A practical hyphen differentiates it from an American outdoor adventure organization.
           </p>
         </div>
       </section>
@@ -40,9 +41,11 @@ export default function AboutPage() {
       <section className="mt-8">
         <div className="flex items-start gap-6">
           <div className="flex-shrink-0">
-            <img
+            <Image
               src="/Profile Picture _felicity HH Chan WCS24.jpeg"
               alt="Dr Felicity Hwee-Hwa Chan"
+              width={128}
+              height={128}
               className="w-32 h-32 rounded-full object-cover"
             />
           </div>

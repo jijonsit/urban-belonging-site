@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ResearchPage() {
   return (
@@ -15,9 +16,11 @@ export default function ResearchPage() {
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">Research</h1>
         
         <div className="mt-6 overflow-hidden rounded-md border border-zinc-200 bg-zinc-50">
-          <img
+          <Image
             src="/images/lkycic/MUB_Cover_15_April_2025.png"
             alt="Mapping Urban Belonging in Places of Flux: Singapore (Cover)"
+            width={800}
+            height={600}
             className="h-auto w-full"
           />
         </div>
