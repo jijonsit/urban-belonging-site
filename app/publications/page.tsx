@@ -24,7 +24,7 @@ export default function PublicationsPage() {
           <div className="mt-4 space-y-4">
             <div className="bg-white p-4">
               <p className="text-base text-zinc-700">
-                <strong>Chan, Felicity Hwee-Hwa.</strong> (2026, Jan). Urban Belonging & Placemaking with Felicity Hwee-Hwa Chan and Stella Gwee. <a href="https://luma.com/dxana2ef" className="text-blue-600 hover:text-blue-800" target="_blank" rel="noopener noreferrer">Young Urbanists Southeast Asia Talks on Tap #4</a>.
+                <strong>Chan, Felicity Hwee-Hwa.</strong> (2026, Jan). Urban Belonging & Placemaking with Felicity Hwee-Hwa Chan and Stella Gwee. <a href="https://luma.com/dxana2ef" className="text-blue-600 hover:text-blue-800" target="_blank" rel="noopener noreferrer">Young Urbanists Singapore Talks on Tap #4</a>.
               </p>
             </div>
             <div className="bg-white p-4">
